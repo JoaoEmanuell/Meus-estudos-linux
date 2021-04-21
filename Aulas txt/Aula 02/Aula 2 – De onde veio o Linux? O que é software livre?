@@ -4,4 +4,10 @@ Eles também criar um sistema chamado de unix, o unix tinha o proposito de unifi
 
 A empresa responsavel pelo Unix detinha o monopolio de 60% do mercado de telefonia, dessa caso eles quissesem vender o sistema poderia dar ruim, portanto eles começaram a distribuir o sistema (você mandava uma carta para eles e a fita para gravar, ai eles gravavam e devolviam a fita para você) porém eles se insetavam de responsabilidade
 
+Richard Stallman foi o criado responsavel pelo Manifesto GNU, que é considerado por muitos como a principal fonte filosófica do software livre.
+
+O manifesto foi publicado em março de 1985 no Dr. Dobb's Journal of Software Tools
+
+O linux foi criado por Linus Torvald, quando Linus estudou o codigo fonte do unix e pegou um pedaço dele para montar o kernel do linux (pois ele não podia modificar o sistema do unix tanto por causa das limitações de licença)
+
 
