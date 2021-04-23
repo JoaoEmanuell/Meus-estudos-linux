@@ -1,1 +1,15 @@
+Todos os comandos linux são escritos com letras minusculas
+
+Todos os comandos tem paramentros que modificam o mesmo
+
+Os paramentros são sempre -l ou --palavra
+
 bash --version = mostra a versão do bash
+
+ls = lista o conteudo de um diretorio
+
+ls -l = lista o conteudo de um diretorio de forma mais detalhada
+
+cd diretorio = Muda o diretorio atual para o diretorio desejado
+
+
