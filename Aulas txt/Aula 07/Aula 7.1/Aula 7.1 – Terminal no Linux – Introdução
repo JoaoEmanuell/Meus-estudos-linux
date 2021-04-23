@@ -4,14 +4,34 @@ Todos os comandos tem paramentros que modificam o mesmo
 
 Os paramentros são sempre -l ou --palavra
 
+É possivel juntar paramentros, so colocar - e os paramentros
+
+PARAMENTROS (ls):
+
+-l = lista o conteudo de um diretorio de forma mais detalhada
+
+-h = Mostra os detalhes de forma mais percepitivel, de forma em MB
+
+-a = Mostra todos os arquivos no diretorio
+
+PARAMENTROS (cd):
+
+~ = volta para o diretorio inicial
+
+.. = volta ao diretorio anterior
+
+. = seu diretorio
+
+/ = diretorio raiz
+
+COMANDOS:
+
 bash --version = mostra a versão do bash
 
 ls = lista o conteudo de um diretorio
 
-ls -l = lista o conteudo de um diretorio de forma mais detalhada
-
 cd diretorio = Muda o diretorio atual para o diretorio desejado
 
-ls -l -h = Mostra os detalhes de forma mais percepitivel, de forma em MB
+mkdir = Cria uma pasta
 
-cd ~ = volta para o diretorio inicial
+touch nome.extensão = cria um arquivo com a extensão desejada
