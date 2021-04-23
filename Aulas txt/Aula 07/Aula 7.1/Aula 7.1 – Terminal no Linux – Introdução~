@@ -12,4 +12,6 @@ ls -l = lista o conteudo de um diretorio de forma mais detalhada
 
 cd diretorio = Muda o diretorio atual para o diretorio desejado
 
+ls -l -h = Mostra os detalhes de forma mais percepitivel, de forma em MB
 
+cd ~ = volta para o diretorio inicial
