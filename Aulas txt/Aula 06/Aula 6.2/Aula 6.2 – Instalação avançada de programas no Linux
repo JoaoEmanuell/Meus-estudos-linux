@@ -11,3 +11,7 @@ sudo dpkg --remove nome = Remove o aplicativo instalado
 sudo dpkg --install nome = Instalar o aplicativo
 
 apt search nome = procura o pacote com o nome
+
+sudo apt clean = remove o cache dos repositorios
+
+sudo apt autoremove = remove os pacotes que não estão sendo usados
