@@ -3,3 +3,23 @@ Usando --help depois de um comando, mostra um conteudo de ajuda ao comando, como
 man comando = Mostra a pagina do manual do comando, com todas as funções dele
 
 history = Lista os comandos usados, caso queira repertir um comando escreva ! e o numero do comando
+
+mkdir = cria uma pasta
+
+usando o paramentro -p no mkdir, pode-se criar diversas pastas dentro de outra, so lembresse de colocar / depois do nome de cada uma e no final colocar \ 1/ que seria a indicação do fim, caso não queira coloar a \ coloque o nome de tudo entre " " e depois / para encerrar 
+
+O paramentro -R de ls lista o conteudo de uma pasta e todos os conteudos dentro dela
+
+cat nome = Exibe o que esta dentro do arquivo
+
+cd ~/Diretorio/ = Vai diretamente para o diretorio desejado
+
+rm Diretorio/Arquivo = Remove o arquivo desejado
+
+rmdir Diretorio = Apaga a pasta caso ela esteja vazia
+
+rm -rf Diretorio/ ou rm -r Diretorio/ = Apaga todo o diretorio com tudo dentro
+
+rm -i Diretorio = Pergunta se vc quer apagar o arquivo para cada arquivo
+
+rm -I Diretorio = Caso tenha menos de 4 arquivos ele ira apagar automaticamente, caso o contrario ele ira perguntar se vc deseja apagar
