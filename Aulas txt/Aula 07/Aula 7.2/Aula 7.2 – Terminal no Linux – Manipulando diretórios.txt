@@ -1,0 +1,5 @@
+Usando --help depois de um comando, mostra um conteudo de ajuda ao comando, como utiliza, paramentros e suas funções
+
+man comando = Mostra a pagina do manual do comando, com todas as funções dele
+
+history = Lista os comandos usados, caso queira repertir um comando escreva ! e o numero do comando
