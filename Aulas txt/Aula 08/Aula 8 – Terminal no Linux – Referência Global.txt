@@ -1,0 +1,13 @@
+Referencia global são conjuntos que facilitam a referencia a localização de arquivos
+
+Diretorio/*nome = ira procurar todos os arquivos que terminem com o nome
+
+Diretorio/*nome* = ira procurar todos os arquivos que possuem o nome
+
+Diretorio/?letras* = A primeira letra ele ira iginorar, ele ira procurar arquivos que possuam as letras indicadas a partir da segunda e o * serve para iginorar o fim
+
+Diretorio/l[i-k]* = Ira procurar todo arquivo que começe com a letra l, e que a segunda letra seja i ate a letra k
+
+Diretorio/{tab,swd} = ira procurar todo padrão de arquivos que começe com tab e termine swd (a , serve para separar os padrãoes)
+
+Diretorio/*.{conf,db} = ira procurar todo padrão de arquivos que tenha a extensão conf ou db
