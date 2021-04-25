@@ -1,0 +1,9 @@
+cat = Mostra o arquivo na saida pradrão
+
+less = Mostra a paginação do arquivo
+
+tac = Mostra o arquivo de trás para frente
+
+cp arquivo Diretorio/ = cp serve para copiar um arquivo para o diretorio desejado
+
+mv arquivo Diretorio/ = mv serve para mover um arquivo para o diretorio desejado

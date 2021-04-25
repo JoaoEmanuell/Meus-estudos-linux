@@ -1,0 +1,114 @@
+Paramentros:
+
+PARAMENTROS (ls):
+
+	-l = lista o conteudo de um diretorio de forma mais detalhada
+
+	-h = Mostra os detalhes de forma mais percepitivel, de forma em MB
+
+	-a = Mostra todos os arquivos no diretorio
+
+PARAMENTROS (cd):
+
+	~ = volta para o diretorio inicial
+
+	.. = volta ao diretorio anterior
+
+	. = seu diretorio
+
+	/ = diretorio raiz
+
+RM:
+
+	rm Diretorio/Arquivo = Remove o arquivo desejado
+
+	rmdir Diretorio = Apaga a pasta caso ela esteja vazia
+
+	rm -rf Diretorio/ ou rm -r Diretorio/ = Apaga todo o diretorio com tudo dentro
+
+	rm -i Diretorio = Pergunta se vc quer apagar o arquivo para cada arquivo
+
+	rm -I Diretorio = Caso tenha menos de 4 arquivos ele ira apagar automaticamente, caso o contrario ele ira perguntar se vc deseja apagar
+	
+REFERENCIA GLOBAL:
+
+	Diretorio/*nome = ira procurar todos os arquivos que terminem com o nome
+
+	Diretorio/*nome* = ira procurar todos os arquivos que possuem o nome
+
+	Diretorio/?letras* = A primeira letra ele ira iginorar, ele ira procurar arquivos que possuam as letras indicadas a partir da segunda e o  	* serve para iginorar o fim
+
+	Diretorio/l[i-k]* = Ira procurar todo arquivo que começe com a letra l, e que a segunda letra seja i ate a letra k
+
+	Diretorio/{tab,swd} = ira procurar todo padrão de arquivos que começe com tab e termine swd (a , serve para separar os padrãoes)
+
+	Diretorio/*.{conf,db} = ira procurar todo padrão de arquivos que tenha a extensão conf ou db
+	
+
+==================================================================================================================================================
+
+cat > 'nome.extensão' = cria um arquivo com extensão desejada
+
+xkill = faz com que o cursor se torne um X e tudo que for clicado é fechado
+
+wget = digite esse comando e em seguida a url que ele ira baixar o arquivo
+
+free = exibe o uso da memoria ram, se colocar o -h ele exibe de forma aredondado
+
+Print Screen = Tira uma foto da tela inteira
+
+Alt + Print Screen = Tira uma foto da tela atual
+
+Shift + Print Screen = O cursor se transforma em uma cruz, selecione a area e ele ira tirar uma foto dela
+
+tar -czf nome_do_arquivo.tar.gz Pasta/ = Compacta o arquivo
+
+Apt install nome = Instalar um aplicativo
+
+Apt remove nome = Desinstalar um aplicativo
+
+sudo apt update = atualiza os aplicativos pelo terminal
+
+sudo dpkg --remove nome = Remove o aplicativo instalado
+
+sudo dpkg --install nome = Instalar o aplicativo
+
+apt search nome = procura o pacote com o nome
+
+sudo apt clean = remove o cache dos repositorios
+
+sudo apt autoremove = remove os pacotes que não estão sendo usados
+
+bash --version = mostra a versão do bash
+
+ls = lista o conteudo de um diretorio
+
+cd diretorio = Muda o diretorio atual para o diretorio desejado
+
+mkdir = Cria uma pasta
+
+touch nome.extensão = cria um arquivo com a extensão desejada
+
+Usando --help depois de um comando, mostra um conteudo de ajuda ao comando, como utiliza, paramentros e suas funções
+
+man comando = Mostra a pagina do manual do comando, com todas as funções dele
+
+history = Lista os comandos usados, caso queira repertir um comando escreva ! e o numero do comando
+
+usando o paramentro -p no mkdir, pode-se criar diversas pastas dentro de outra, so lembresse de colocar / depois do nome de cada uma e no final colocar \ 1/ que seria a indicação do fim, caso não queira coloar a \ coloque o nome de tudo entre " " e depois / para encerrar 
+
+O paramentro -R de ls lista o conteudo de uma pasta e todos os conteudos dentro dela
+
+cat nome = Exibe o que esta dentro do arquivo
+
+cd ~/Diretorio/ = Vai diretamente para o diretorio desejado
+
+less = Mostra a paginação do arquivo
+
+tac = Mostra o arquivo de trás para frente
+
+cp arquivo Diretorio/ = cp serve para copiar um arquivo para o diretorio desejado
+
+mv arquivo Diretorio/ = mv serve para mover um arquivo para o diretorio desejado
+
+mv arquvio/ arquivo = mv além de mover serve para renomear o arquivo
